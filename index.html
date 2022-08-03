@@ -18,7 +18,7 @@
   <link href="./quiz.css" rel="stylesheet">
 </head>
 
-<body onload="NextQuestion(0)">
+<body onload="NextQuestion(0)" style="font-size: 19px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
     <main>
 
         <!-- creating a modal for when quiz ends -->
@@ -91,12 +91,13 @@
                     <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
                     <label for="option-four" class="option" id="option-four-label"></label>
                 </span>
-
-
+            
             </div>
 
+            <br>
+
             <div class="next-button-container">
-                <button onclick="handleNextQuestion()">Next Question</button>
+                <button onclick="handleNextQuestion()" style="font-size: 17px;">Next Question</button>
             </div>
 
         </div>
